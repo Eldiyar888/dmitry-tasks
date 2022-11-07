@@ -6,13 +6,10 @@ const uniqueArray = (arr) => {
             }
         }
     }
-
     let uniqArrValues = arr.filter((value) => {
         return value.Value !== 'EMPTY'
     })
-
     return uniqArrValues;
-
 };
 
 module.exports = uniqueArray;
